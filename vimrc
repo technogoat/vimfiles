@@ -67,9 +67,6 @@ if has("autocmd") && has("gui")
   au GUIEnter * set t_vb=
 endif
 
-" Turn off toolbar on GVim
-set guioptions-=T
-
 " Store temporary files in a central spot
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
