@@ -116,7 +116,8 @@ if has("gui_running")
   " Tell the term has 256 colors
   set t_Co=256
   set term=gnome-256color
-  colorscheme railscasts
+  set background=dark
+  colorscheme solarized
 
   " solarized
   " colorscheme solarized
@@ -125,7 +126,8 @@ if has("gui_running")
   " set background=dark
 else
   set term=xterm-256color
-  colorscheme jellybeans
+  set background=dark
+  colorscheme solarized
 
   " solarized
   " colorscheme solarized
